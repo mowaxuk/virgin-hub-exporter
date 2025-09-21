@@ -3,7 +3,7 @@ name: Docker Build & Push
 on:
   push:
     tags:
-      - 'v*'
+      - '*'
 
 jobs:
   build:
@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: mowaxuk/virgin-hub-exporter:latest
+          tags: datastream101/virgin-hub-exporter:latest
