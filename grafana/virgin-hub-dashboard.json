@@ -1,0 +1,58 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Virgin Hub Metrics",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Signal Strength (dB)",
+        "targets": [
+          {
+            "expr": "virgin_hub_signal_strength_db",
+            "legendFormat": "Signal",
+            "refId": "A"
+          }
+        ],
+        "gridPos": { "x": 0, "y": 0, "w": 12, "h": 8 }
+      },
+      {
+        "type": "graph",
+        "title": "Connected Devices",
+        "targets": [
+          {
+            "expr": "virgin_hub_connected_devices_total",
+            "legendFormat": "Devices",
+            "refId": "B"
+          }
+        ],
+        "gridPos": { "x": 12, "y": 0, "w": 12, "h": 8 }
+      },
+      {
+        "type": "graph",
+        "title": "Downstream Rate (Mbps)",
+        "targets": [
+          {
+            "expr": "virgin_hub_downstream_rate_mbps",
+            "legendFormat": "Downstream",
+            "refId": "C"
+          }
+        ],
+        "gridPos": { "x": 0, "y": 8, "w": 12, "h": 8 }
+      },
+      {
+        "type": "graph",
+        "title": "Upstream Rate (Mbps)",
+        "targets": [
+          {
+            "expr": "virgin_hub_upstream_rate_mbps",
+            "legendFormat": "Upstream",
+            "refId": "D"
+          }
+        ],
+        "gridPos": { "x": 12, "y": 8, "w": 12, "h": 8 }
+      }
+    ],
+    "schemaVersion": 36,
+    "version": 1
+  }
+}
