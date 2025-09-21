@@ -52,7 +52,7 @@ Replace `localhost` with your host IP if running remotely.
 
 ## 🧠 Reverse Engineering Notes
 
-This exporter was reverse engineered from Virgin Media Hub telemetry endpoints by **Wayne Pinchen** (GitHub: `mowaxuk`), with support from **Microsoft Copilot**.  
+This exporter was reverse engineered from Virgin Media Hub telemetry endpoints by **Mowaxuk (Wayne)** (GitHub: `mowaxuk`), with support from **Microsoft Copilot**.  
 It exposes undocumented downstream and upstream signal metrics from consumer-grade routers manufactured by **Technicolor** and **Hitron**.  
 The metrics were extracted by inspecting the router’s web interface and HTTP endpoints, and translated into Prometheus format for sysadmin-grade observability.  
 Built with Go, containerized with Docker, and published for public use.
